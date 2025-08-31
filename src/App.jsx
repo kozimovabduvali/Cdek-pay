@@ -5,6 +5,7 @@ import Business from "./pages/Business";
 import Shops from "./pages/Shops";
 import About from "./pages/About";
 import Footer from "./components/Footer";
+import ChatFixed from "./components/Ui/ChatFixed";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
+      <ChatFixed />
     </Router>
   );
 }

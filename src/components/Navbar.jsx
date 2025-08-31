@@ -7,7 +7,7 @@ export default function Navbar() {
     "relative text-xs p-2.75 py-3.5 overflow-hidden text-black/65 text-shadow-base";
 
   return (
-    <header className="bg-white shadow-lg border-b border-[#E0E0E0]">
+    <header className="bg-white shadow-lg border-b border-[#E0E0E0] max-lg:py-1">
       <nav className="flex items-center gap-2 w-full max-w-310 mx-auto px-5">
         <NavLink to="/">
           <img src={Logo} alt="Logo" />

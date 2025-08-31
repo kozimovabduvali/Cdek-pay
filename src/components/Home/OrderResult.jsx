@@ -1,6 +1,6 @@
 import ClockImg from '../../assets/clock.png'
-import Delivery from '../Ui/Delivery'
-import OrderInfo from '../Ui/OrderInfo'
+import Delivery from '../Ui/Home/Delivery'
+import OrderInfo from '../Ui/Home/OrderInfo'
 export default function OrderResult() {
   return (
     <div className='md:p-8 md:rounded-[10px] md:bg-white md:shadow-drob'>

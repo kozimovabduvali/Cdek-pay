@@ -14,8 +14,17 @@
   body {
     @apply font-roboto;
   }
+  
+  button {
+    @apply cursor-pointer
+  }
 }
 
 @utility text-shadow-base {
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+
+@utility shadow-drob {
+  box-shadow: 0px 0px 25px 0px #00000012;
 }

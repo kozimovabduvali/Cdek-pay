@@ -2,10 +2,8 @@ import React from 'react'
 
 export default function Track() {
   return (
-    <div>
-    <h1 className='text-2xl text-[#222222]'>
-        Отследить отправление
-      </h1>
-    </div>
+    <h1 className='text-2xl text-[#222222] mb-5.5 md:mb-6'>
+      Отследить отправление
+    </h1>
   )
 }

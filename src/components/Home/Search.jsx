@@ -6,7 +6,7 @@ export default function Search() {
   return (
     <div className="bg-white md:px-15.25 md:py-13 md:shadow-drob md:rounded-[10px] mb-7.5 md:mb-6">
       <div className="flex items-center gap-1.5 w-full sm:max-w-86 md:max-w-145 lg:max-w-172.5 max-lg:mx-auto">
-        <div className="w-full mx-auto flex items-center justify-between border border-[#E0E0E0] rounded-lg overflow-hidden px-1 h-12">
+        <div className="relative w-full mx-auto flex items-center justify-between border border-[#E0E0E0] rounded-lg px-1 h-12">
           <button className="size-8 flex items-center justify-center">
             <svg
               width={23}
@@ -23,6 +23,9 @@ export default function Search() {
               />
             </svg>
           </button>
+          <label htmlFor="#" className="absolute z-10 top-0 -translate-y-1/2 left-5 text-[#ADAFB4] text-xs bg-white px-1">
+            Номер заказа
+          </label>
           {/* Input (readonly) */}
           <input
             type="text"

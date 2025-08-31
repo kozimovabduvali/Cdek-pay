@@ -28,3 +28,17 @@
 @utility shadow-drob {
   box-shadow: 0px 0px 25px 0px #00000012;
 }
+
+
+.delivery-rounded::after, .delivery-rounded::before {
+  content: '';
+  @apply absolute z-10 top-1/2 -translate-y-1/2 size-2 border bg-white border-[#E0E0E0] rounded-full
+}
+
+.delivery-rounded::after {
+  @apply left-0 !border-[#1AB248]
+}
+
+.delivery-rounded::before {
+  @apply right-0
+}

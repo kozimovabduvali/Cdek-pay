@@ -1,15 +1,22 @@
 import OrderResult from "../components/Home/OrderResult";
 import Search from "../components/Home/Search";
 import Track from "../components/Home/Track";
+import CostDesk from "../components/Ui/CostDesk";
 
 export default function Home() {
   return (
     <>
-    <section>
-      <Track />
-      <Search />
-      <OrderResult />
-    </section>
+      <section className="lg:pb-17">
+        <Track />
+        <Search />
+        <div className="md:mb-6">
+          <OrderResult />
+        </div>
+
+        <div>
+          <CostDesk />
+        </div>
+      </section>
     </>
   )
 }

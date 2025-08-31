@@ -3,7 +3,7 @@ export default function Delivery() {
   return (
     <>
       <div className='delivery-rounded relative w-full h-9.5 flex items-center mb-2 md:mb-16'>
-        <div className='absolute z-20 left-1 md:left-3 top-0 bg-white size-9.5 rounded-full flex items-center justify-center'>
+        <div className='absolute z-20 left-3 top-0 bg-white size-9.5 rounded-full flex items-center justify-center'>
           <svg
             width={19}
             height={12}

@@ -3,7 +3,7 @@ export default function CostDesk() {
   return (
     <>
       <div className="lg:max-w-97.5 w-full ml-auto bg-[#333333] lg:bg-white text-[#232323] shadow-drob rounded-t-[15px] p-6">
-        <h3 className="max-lg:hidden font-medium text-2xl mb-6">
+        <h3 className="max-lg:hidden text-2xl mb-6">
           Ваш расчет
         </h3>
         <div className="text-black lg:hidden flex justify-between gap-5 mb-11 lg:mb-7">

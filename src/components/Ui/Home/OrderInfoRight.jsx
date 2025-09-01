@@ -19,7 +19,7 @@ export default function OrderInfoRight() {
             <span className='text-[#999999] text-sm'>
               {item.label}
             </span>
-            <p className='text-[#282828] font-medium'>
+            <p className='text-[#282828]'>
               {item.value}
             </p>
           </div>
@@ -33,7 +33,7 @@ export default function OrderInfoRight() {
       {/* bottom */}
       <div className='bg-white shadow-drob rounded-[10px] p-5 space-y-3.75 mt-11 md:mt-4 max-md:mb-8'>
         <div>
-          <p className='text-[#282828] font-medium mb-1'>
+          <p className='text-[#282828] mb-1'>
             Вручение по паспорту
           </p>
           <span className='text-[#999999] text-xs leading-4'>

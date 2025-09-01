@@ -8,7 +8,7 @@ export default function Navbar() {
 
   return (
     <header className="bg-white shadow-lg border-b border-[#E0E0E0] max-lg:py-1">
-      <nav className="flex items-center gap-2 w-full max-w-310 mx-auto px-5">
+      <nav className="flex items-center gap-4 w-full max-w-310 mx-auto px-5">
         <NavLink to="/">
           <img src={Logo} alt="Logo" />
         </NavLink>

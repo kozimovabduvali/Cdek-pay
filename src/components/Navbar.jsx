@@ -4,7 +4,7 @@ import Logo from "../assets/logo.svg";
 
 export default function Navbar() {
   const linkClass =
-    "relative text-xs p-2.75 py-3.5 overflow-hidden text-black/65 text-shadow-base";
+    "relative text-xs p-2.75 py-3.5 overflow-hidden text-black/65 text-shadow-base tracking-widest uppercase";
 
   return (
     <header className="bg-white shadow-lg border-b border-[#E0E0E0] max-lg:py-1">

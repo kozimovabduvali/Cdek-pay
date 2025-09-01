@@ -17,7 +17,7 @@ export default function CostDesk() {
         </div>
 
         <div className="pb-6 border-b border-[#999999] lg:border-[#E0E0E0] mb-4">
-          <div className="bg-[#666666] lg:bg-[#F6F7F9] max-lg:text-white rounded-[20px] space-y-3 p-3.5">
+          <div className="bg-[#666666] lg:bg-[#F6F7F9] max-lg:text-white rounded-[20px] space-y-2 p-3.5">
             <div className="flex items-center justify-between gap-5">
               <p>
                 Товар

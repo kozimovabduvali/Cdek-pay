@@ -23,10 +23,10 @@ export default function OrderResult() {
         </div>
 
         <div className='flex items-center justify-between gap-5 mb-2'>
-          <h4 className='font-bold text-xl text-[#232323]'>
+          <h4 className='font-bold text-xl lg:text-2xl text-[#232323]'>
             Санкт-Петербург
           </h4>
-          <h4 className='font-bold text-xl text-[#232323]'>
+          <h4 className='font-bold text-xl lg:text-2xl text-[#232323]'>
             Химки
           </h4>
         </div>
